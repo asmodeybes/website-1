@@ -25,7 +25,7 @@ SECRET_KEY = 'sey4d^rul1$q=_y%_85__))gxd*5q(!e)aqy^l5j)5q7y7g(@s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['maxchv.pythonanywhere.com']
 
 
 # Application definition
@@ -121,6 +121,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
+
+STATIC_ROOT = "/var/www/static"
 
 STATIC_URL = '/static/'
 
